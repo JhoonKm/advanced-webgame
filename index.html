@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helpy's Advanced Web Game</title>
+  <style>
+    html, body { height: 100%; margin: 0; background: #181c1f; color: #fff; font-family: 'Segoe UI', Arial, sans-serif; }
+    #gameCanvas { display: block; margin: 0 auto; background: #23272b; border: 2px solid #444; box-shadow: 0 0 24px #000a; }
+    #ui { text-align: center; margin-top: 12px; }
+    #startBtn { padding: 12px 28px; font-size: 20px; border-radius: 8px; border: none; background: #3b82f6; color: #fff; cursor: pointer; }
+    #startBtn:hover { background: #2563eb; }
+    #msg { margin-top: 8px; min-height: 24px; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="480"></canvas>
+  <div id="ui">
+    <button id="startBtn">Start Game</button>
+    <div id="msg"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
